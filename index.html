@@ -4,26 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/cores.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/cabecalho.css">
-
+    <link rel="stylesheet" href="./assets/css/logo-titulo.css">
+    <link rel="stylesheet" href="./assets/css/menu/menu-lista.css">
+    <link rel="stylesheet" href="./assets/css/menu/menu-item.css">
+    <link rel="stylesheet" href="./assets/css/banner.css">
+    <link rel="stylesheet" href="./assets/css/banner/banner-imagem.css">
+    <link rel="stylesheet" href="./assets/css/banner/banner-imagem-creditos.css">
+    <link rel="stylesheet" href="./assets/css/banner/banner-texto.css">
+    <link rel="stylesheet" href="./assets/css/banner/banner-titulo.css">
+    <link rel="stylesheet" href="./assets/css/banner/banner-descricao.css">
+    <link rel="stylesheet" href="./assets/css/sobre.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-container.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-perfil.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-imagem.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-descricao.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-redes.css">
+    
     <title>jVeniciusDev</title>
 </head>
 <body>
-    
     <header class="cabecalho">
         <div class="logo">
-            <a href="#">jVeniciusDev</a> 
+            <a href="#"><h2 class="logo__titulo">jVeniciusDev</h2></a>
         </div>
-        <nav class="menu">
+        <div class="mensagem">
+            <h2>Obrigado pela visita 💚</h2>
+        </div>
+        <!-- <nav class="menu">
             <ul class="menu__lista">
-                <li class="menu__item">Início</li>
-                <li class="menu__item">Sobre</li>
-                <li class="menu__item">Contato</li>
+                <li class="menu__item"><a href="#">Início</a></li>
+                <li class="menu__item"><a href="#">Sobre</a></li>
+                <li class="menu__item"><a href="#">Contato</a></li>
             </ul>
-        </nav>
+        </nav> -->
     </header>
 
+    <main class="container">
+        <section class="banner">
+            <div class="banner__imagem">
+            </div>
+            <div class="banner__texto">
+                <h2 class="banner__titulo--typing">Desenvolvedor web</h2>
+                <p class="banner__descricao">É a pessoa que atua na área da tecnologia voltada à construção de sites, aplicativos, bancos de dados e quaisquer outras ferramentas que, de certa forma, constroem a internet como a conhecemos hoje - <a href="https://kenzie.com.br/blog/desenvolvimento-web/">saiba mais</a>.
+                <p class="banner__imagem__creditos"> Créditos da imagem: <a href='https://br.freepik.com/fotos-vetores-gratis/programacao'>Programação vetor criado por storyset - br.freepik.com</a></p>
+            </div>
+        </section>
+        <section class="sobre">
+            <h2 class="sobre__titulo secao__titulo">Sobre</h2>
+            <div class="sobre__container">
+                <div class="sobre__perfil">
+                    <div class="sobre__imagem"></div>
+                    <div class="sobre__descricao">
+                        <p>Olá, me chamo Venícius, sou formado em Física e apaixonado por tecnologia. Tenho 22 anos, sou desenvolvedor web com muita imaginação e energia para aprender e colaborar com seu negócio e/ou empresa.</p>
+                    </div>
+                </div>
+
+                <div class="sobre__redes">
+                    <ul class="sobre__redes__lista">
+                        <li class="sobre__redes__item"><a href="https://github.com/jvenicius" target="_blank"><i class="fab fa-github"></i>/jvenicius</a></li>
+                        <li class="sobre__redes__item"><a href="https://www.linkedin.com/in/jvenicius" target="_blank"><i class="fab fa-linkedin"></i>/jvenicius</a></li>
+                        <li class="sobre__redes__item"><a href="https://instagram.com/jveniciusdev" target="_blank"><i class="fab fa-instagram"></i>/jveniciusdev</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="https://kit.fontawesome.com/521fb6fba3.js" crossorigin="anonymous"></script>
 </body>
 </html>
