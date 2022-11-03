@@ -3,3 +3,10 @@
 	padding-top: 1.75rem;
 	margin: 0 6%;
 }
+
+@media screen and (max-width: 768px) {
+	.sobre {
+		height: auto;
+		padding: 0;
+	}
+}

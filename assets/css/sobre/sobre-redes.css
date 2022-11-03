@@ -12,6 +12,7 @@
 	/*color: var(--verde-secundario);*/
 	margin-right: 2rem;
 	font-size: 2rem;
+	margin-bottom: 2rem;
 }
 
 .sobre__redes__item:last-child {
@@ -23,4 +24,15 @@
 	cursor: pointer;
 	border-bottom: solid var(--verde-secundario) 1px;
 	transform: translateY(1px);
+}
+
+@media screen and (max-width: 768px) {
+	.sobre__redes {
+		margin-bottom: 0;	
+	}
+
+	.sobre__redes__lista {
+		flex-direction: column;
+		justify-content: space-around;
+	}
 }

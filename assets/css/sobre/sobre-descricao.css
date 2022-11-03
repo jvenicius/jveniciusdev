@@ -1,6 +1,13 @@
 .sobre__descricao {
 	font-size: 1.4rem;
-	maring-left: 2rem;
+	margin-left: 2rem;
 	text-align: justify;
 	width: 40%;
+}
+
+@media screen and (max-width: 768px) {
+	.sobre__descricao {
+		width: 100%;
+		margin: 0 2rem;
+	}
 }

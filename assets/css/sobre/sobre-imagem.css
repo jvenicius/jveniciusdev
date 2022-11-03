@@ -5,3 +5,9 @@
     margin-right: 2rem;
     width: 225px;
 }
+
+@media screen and (max-width: 768px) {
+    .sobre__imagem {
+        margin: 0;
+    }
+}

@@ -5,3 +5,10 @@
     height: 75px;
     margin: 0 6%;
 }
+
+@media screen and (max-width: 768px) {
+    .cabecalho {
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+}

@@ -4,3 +4,11 @@
 	height: calc(100vh - 75px);
 	margin: 0 6%;
 }
+
+@media screen and (max-width: 768px) {
+	.banner {
+		flex-direction: column;
+		height: auto;
+		margin: 2rem 2rem;
+	}
+}
